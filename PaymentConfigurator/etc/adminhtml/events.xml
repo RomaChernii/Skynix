@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * System adminhtml event
+ *
+ * @category Skynix
+ * @package  Skynix\PaymentConfigurator
+ * @author   Roman Chernii
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="admin_system_config_changed_section_payment">
+        <observer name="save_api_key_after_config_changed_section_payment" instance="Skynix\PaymentConfigurator\Observer\ConfigObserver"/>
+    </event>
+</config>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * System configuration
+ *
+ * @category Skynix
+ * @package  Skynix\PaymentConfigurator
+ * @author   Roman Chernii
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="skynix_payment" translate="label" type="text" sortOrder="25" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Skynix Payment Configurator</label>
+                <field id="api_key" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>API Key</label>
+                    <config_path>payment/skynix/api_key</config_path>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

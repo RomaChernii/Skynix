@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Default configuration
+ *
+ * @category Skynix
+ * @package  Skynix\PaymentConfigurator
+ * @author   Roman Chernii
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <skynix>
+                <api_key>UI209KWPOLANKD71P0OQL8362810DW8P</api_key>
+            </skynix>
+        </payment>
+    </default>
+</config>
